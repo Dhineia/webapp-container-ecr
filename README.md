@@ -5,7 +5,7 @@ Designed and implemented a CI/CD pipeline using GitHub Actions to automate the d
 
 ---
 ## Key Steps:
-- CI/CD Setup: Created a docker-deploy.yml workflow file in GitHub Actions to automate the build and deployment process.
+- ## CI/CD Setup: Created a docker-deploy.yml workflow file in GitHub Actions to automate the build and deployment process.
 - Secrets Management: Stored sensitive credentials like IAM Access Key, Secret Key, Region, and ECR Repository as GitHub Secrets for secure access within the pipeline.
 - Containerization & Deployment:
 - Built and pushed the Docker image to Amazon ECR.
