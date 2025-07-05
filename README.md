@@ -1,7 +1,10 @@
 🚀 CI/CD Deployment of a Containerized App to AWS Fargate
-Project Overview:
+---
+-Project Overview:
 Designed and implemented a CI/CD pipeline using GitHub Actions to automate the deployment of a Dockerized application to AWS Fargate, ensuring scalability and zero-downtime deployment.
-Key Steps:
+
+---
+## Key Steps:
 - CI/CD Setup: Created a docker-deploy.yml workflow file in GitHub Actions to automate the build and deployment process.
 - Secrets Management: Stored sensitive credentials like IAM Access Key, Secret Key, Region, and ECR Repository as GitHub Secrets for secure access within the pipeline.
 - Containerization & Deployment:
@@ -9,7 +12,10 @@ Key Steps:
 - Created an ECS cluster on Fargate for serverless deployment.
 - Defined a Task Definition and launched it through an ECS Service.
 - Application Access: Retrieved the Public IP Address of the running task to access the deployed application via browser.
-Tools Used:
+  
+---
+
+-Tools Used:
 GitHub Actions · Docker · AWS ECS (Fargate) · ECR · IAM · GitHub Secrets
 
 ![Cluster](https://github.com/user-attachments/assets/d800c6e8-b191-417d-947a-55cf2aa33f7c)
