@@ -5,7 +5,7 @@ on:
     branches: [ main ]  # adjust if your default branch is different
 
 env:
-  AWS_REGION: ap-southeast-1
+  AWS_REGION: us-east-1
   ECR_REPOSITORY: webapp-container-ecr
 
 jobs:
